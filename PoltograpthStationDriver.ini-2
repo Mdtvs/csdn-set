@@ -1,0 +1,202 @@
+[EmailServer]
+Host=127.0.0.1
+Login=None
+Password=None
+
+[Device.Global]
+7076=900270
+7047=900272
+7043=900249
+7074=900378
+7130=900334
+7060=900422
+
+[Device.Local]
+900272=7047
+900249=7043
+900378=7074
+900270=7076
+900334=7130
+900422=7060
+
+[Device.Info.7076]
+GlobalId=7076
+LocalId=900270
+Description=АГК с.Поворт - р.Чикой
+LastConnectedTime=1472440459
+LastDisconnectedTime=1472440465
+LastSentTime=1472440468
+TimeOffset=0
+TimeFormat=None
+ConnectionString=poltog=FILV0:*.sts:900270
+Login=AGK-07076
+Password=07076
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07076
+EmailPassword=07076
+NextTimePolling=1472451855
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7076]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
+[Device.Info.7047]
+GlobalId=7047
+LocalId=900272
+Description=АГК с. Новоселенгинск - р. Селенга
+LastConnectedTime=1472444073
+LastDisconnectedTime=1472444079
+LastSentTime=1472444082
+TimeOffset=0
+TimeFormat=None
+ConnectionString=poltog=FILV0:*.sts:900272
+Login=AGK-07047
+Password=07047
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07047
+EmailPassword=07047
+NextTimePolling=1472451869
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7047]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
+[Device.Info.7043]
+GlobalId=7043
+LocalId=900249
+Description=АГК с. Усть-Кяхта - р. Селенга
+LastConnectedTime=1472439900
+LastDisconnectedTime=1472439905
+LastSentTime=1469599952
+TimeOffset=0
+TimeFormat=None
+ConnectionString=poltog=FILV0:*.sts:900249
+Login=AGK-07043
+Password=07043
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07043
+EmailPassword=07043
+NextTimePolling=1472451877
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7043]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
+[Device.Info.7074]
+GlobalId=7074
+LocalId=900378
+Description=АГК с.Чикой - р. Чикой
+LastConnectedTime=1472253403
+LastDisconnectedTime=1472253409
+LastSentTime=1469603269
+TimeOffset=0
+TimeFormat=None
+ConnectionString=poltog=FILV0:*.sts:900378
+Login=AGK-07074
+Password=07074
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07074
+EmailPassword=07074
+NextTimePolling=1472451885
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7074]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
+[Device.Info.7130]
+GlobalId=7130
+LocalId=900334
+Description=АГК г.Улан-Удэ - р.Уда
+LastConnectedTime=1472444102
+LastDisconnectedTime=1472444108
+LastSentTime=1472444111
+TimeOffset=0
+ConnectionString=poltog=FILV0:*.sts:900334
+Login=AGK-07130
+Password=07130
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07130
+EmailPassword=07130
+NextTimePolling=1472451893
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7130]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
+[Device.Info.7060]
+GlobalId=7060
+LocalId=900422
+Description=АГК ст. Джида р. Джида
+LastConnectedTime=1472451605
+LastDisconnectedTime=1472451611
+LastSentTime=1472451313
+TimeOffset=0
+ConnectionString=poltog=FILV0:*.sts:900422
+Login=AGK-07060
+Password=07060
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07060
+EmailPassword=07060
+NextTimePolling=1472451901
+ResponsePeriod=300
+Polling=0
+
+[Device.Channel.7060]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+[EmailServer]
+Host=127.0.0.1
+Login=None
+Password=None
