@@ -196,6 +196,35 @@ Polling=0
 5=
 6=
 7=
+
+[Device.Info.7128]
+GlobalId=7128
+LocalId=900484
+Description=с. Первомаевка р. Уда
+LastConnectedTime=1471228992
+LastDisconnectedTime=1471228998
+LastSentTime=1470966548
+TimeOffset=0
+ConnectionString=poltog=FILV0:*.sts:900484
+Login=AGK-900484
+Password=900484
+EmailServer=127.0.0.1:7100
+Email=stream1@station.ru
+EmailLogin=AGK-07128
+EmailPassword=07128
+NextTimePolling=1472608245
+ResponsePeriod=300
+Polling=0
+[Device.Channel.7128]
+0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
+1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
+2=<parameter CHL="2" VAR="LB">%VAL%</parameter>
+3=<parameter CHL="3" VAR="TA" PROC="INS">%VAL%</parameter>
+4=
+5=
+6=
+7=
+
 [EmailServer]
 Host=127.0.0.1
 Login=None
