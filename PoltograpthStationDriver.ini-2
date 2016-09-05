@@ -203,20 +203,21 @@ Polling=0
 GlobalId=7128
 LocalId=900484
 Description=с. Первомаевка р. Уда
-LastConnectedTime=1471228992
-LastDisconnectedTime=1471228998
-LastSentTime=1470966548
+LastConnectedTime=1472451605
+LastDisconnectedTime=1472451611
+LastSentTime=1472451313
 TimeOffset=0
 ConnectionString=poltog=FILV0:*.sts:900484
-Login=AGK-900484
-Password=900484
+Login=AGK-07128
+Password=07128
 EmailServer=127.0.0.1:7100
 Email=stream1@station.ru
 EmailLogin=AGK-07128
 EmailPassword=07128
-NextTimePolling=1472608245
+NextTimePolling=1472451901
 ResponsePeriod=300
 Polling=0
+
 [Device.Channel.7128]
 0=<parameter CHL="0" VAR="LW" unit="cm">%VAL%</parameter>
 1=<parameter CHL="1" VAR="TW" unit="c">%VAL%</parameter>
